@@ -1,7 +1,7 @@
 
 # 🎧 컨텐츠 유사도 기반 음악 추천 시스템
 
-<br>
+---
 
 ## 💻 프로젝트 소개
 사용자가 검색한 음악의 **오디오 특성(Audio Features)**을 기반으로  
@@ -101,7 +101,7 @@ mlops-cloud-project-mlops-2
 └────────────────┘             └──────────────┘
 ```
 
----
+<br>
 
 ## 🚀 Installation & Usage
 ```bash
@@ -118,7 +118,9 @@ docker-compose up --build
 # Airflow: http://localhost:8080
 # MLflow: http://localhost:5000
 ```
----
+
+<br>
+
 ## 📊 Example Workflow
 1. 사용자 UI에서 트랙 검색  
 2. 시드곡 선택 → FastAPI 서버 호출  
@@ -145,7 +147,7 @@ docker-compose up --build
 - Apache Airflow Docs
 
  
----
+<br>
 
 ## 📌 Conclusion
 이 프로젝트는 단순한 추천 모델 구현을 넘어, **실제 서비스 운영 환경에서의 MLOps 워크플로우**를 실습한 사례입니다.  
